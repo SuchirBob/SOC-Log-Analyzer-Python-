@@ -1,0 +1,3 @@
+# SOC Log Analyzer currently relies only on the Python standard library
+# (re, collections, datetime, argparse, os). This file is kept for future
+# improvements (e.g. colorized output, JSON/CSV export libraries).
