@@ -2,12 +2,13 @@
 analyzer.py
 Main entry point for the SOC Log Analyzer.
 
+
 Usage:
     python analyzer.py --auth logs/auth.log --access logs/access.log
     python analyzer.py --auth logs/auth.log
     python analyzer.py --access logs/nginx.log --out reports/custom.txt
 """
-
+ # use this code to analyze the Logs
 import argparse
 import sys
 
